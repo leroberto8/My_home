@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Your first HTML page</title>
+  <meta charset="utf-8"/>
+
+  <script>
+    function changeTitleCSSStyle() {
+      var title = document.querySelector("#mainTitle");
+      title.style.color = 'black';
+      title.style.backgroundColor = "yellow";
+      title.style.border = "5px dashed red";
+    }
+  </script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+
+</head>
+  <body>
+    <h1 id="mainTitle">My home page</h1> 
+    <h2>Who am I?</h2>
+  <p>Hi! Welcome to my Home Page! My name is Michel Buffa, I'm a professor at the University of Nice, in France, and I'm also the author of two MOOCS about HTML5 on W3Cx.</p>
+    <p>I also play electric guitar and love coding WebAudio applications...</p>
+    <img src="https://int.search.tb.ask.com/search/AJimage.jhtml?&searchfor=a+cat&n=7839c7bf&p2=%5EY6%5Exdm269%5ETTAB02%5Epl&ptb=C883D281-F7B6-4332-9BA6-920F22309AE4&qs=&si=CJSFl_3pjNQCFVdfGQodgj4Mug&ss=sub&st=sb&tpr=sbt&ts=1511723443493&imgs=1p&filter=on&imgDetail=true"
+         width=200
+         alt="Michel Buffa plays rock and roll">
+    <h2>My Hobbies</h2>
+    Music, Movies, Travelling, Family, etc.
+
+    <button onclick="changeTitleCSSStyle();">Click me to change the CSS colors of the title of the page</button>
+
+  </body>
+</html>
